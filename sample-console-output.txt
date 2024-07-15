@@ -1,0 +1,23 @@
+INFO:__main__:{
+    "Ceiling light fixtures": "On the ceiling, multiple irregular-shaped pendant light fixtures",
+    "Curtains": "Hanging on windows near the outdoor scenery",
+    "Sofas": "Two gray sofas in the center of the living room",
+    "Coffee table": "A rectangular wooden coffee table between the sofas",
+    "Potted plant": "A potted plant near the corner of the room",
+    "Floor lamp": "A standing floor lamp next to one of the sofas",
+    "Area rug": "A large dark-colored area rug underneath the coffee table",
+    "Wall art": "A framed artwork hanging on the wall",
+    "Books": "Books placed on the coffee table"
+}
+INFO:__main__:['Ceiling light fixtures', 'Curtains', 'Sofas', 'Coffee table', 'Potted plant', 'Floor lamp', 'Area rug', 'Wall art', 'Books']
+INFO:__main__:Objects to be removed :['Books']
+INFO:__main__:{
+    "Ceiling light fixtures": "On the ceiling, multiple irregular-shaped pendant light fixtures",
+    "Curtains": "Hanging on windows near the outdoor scenery",
+    "Sofas": "Two gray sofas in the center of the living room",
+    "Coffee table": "A rectangular wooden coffee table between the sofas",
+    "Potted plant": "A potted plant near the corner of the room",
+    "Floor lamp": "A standing floor lamp next to one of the sofas",
+    "Area rug": "A large dark-colored area rug underneath the coffee table",
+    "Wall art": "A framed artwork hanging on the wall"
+}

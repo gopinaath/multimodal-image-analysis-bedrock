@@ -11,9 +11,7 @@ logging.basicConfig(level=logging.INFO)
 model_id = 'anthropic.claude-3-sonnet-20240229-v1:0'
 max_tokens = 2000
 prompt_text_identify_objects = "Accurately identify each object, and the object's location in this image. If there are multiple objects of the same type, identify each separately. After identifying, doublecheck if each of the identified object is present the given picture. If it's not present, remove that object from the identified objects. Ignore architectural features like floor, wall, etc. Give response in JSON format.  Use double quotes for constructing json objects. Don't add newline characters. "
-
 prompt_text_identify_objects = prompt_text_identify_objects + "Sample JSON format: {\"objects\": {\"Object-1 Name\": \"Object-1 location\", \"Object-2 name\": \"Object-2 location\"}}.  This is only a sample JSON document with two placeholder items. You will likely have more objects in the image. "
-
 prompt_text_validate_objects = "Answer if the given object can be identified in the image.  If the identified object is present in the image, respond with 'Yes'. If the identified objects are not present in the image, respond with 'No'. If you are unsure, respond with 'Unsure'. Give response in JSON format.  Use double quotes for constructing json objects. Don't add newline characters.  Does the image contain "
 
 def run_multi_modal_prompt(bedrock_runtime, messages, max_tokens):
