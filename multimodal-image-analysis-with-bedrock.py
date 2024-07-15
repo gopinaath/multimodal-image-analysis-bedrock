@@ -125,8 +125,7 @@ def main():
         if(not (response_value == "Yes")):
             key_list_to_be_removed.append(key)
     
-    logger.info(key_list_to_be_removed)
-    logger.info("Objects to be removed :" + json.dumps(objects, indent=4))
+    logger.info("Objects to be removed :" + str(key_list_to_be_removed))
 
     for key in key_list_to_be_removed:
         objects.pop(key)
