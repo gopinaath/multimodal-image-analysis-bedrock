@@ -1,1 +1,2 @@
-# multimodal-image-analysis-bedrock
+# bedrock-multimodal-image-analysis-
+Address hallucination using feedback loop
